@@ -1,3 +1,3 @@
 import axios from 'axios' 
-const BASE_URL = '[{name/api/products' 
+const BASE_URL = ',=/api/products' 
 export const API = axios.create({ baseURL: BASE_URL }) 
