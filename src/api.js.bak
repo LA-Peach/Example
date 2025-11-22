@@ -1,0 +1,9 @@
+import axios from 'axios'
+
+// Replace this with your ngrok HTTPS URL, e.g.:
+// const BASE_URL = 'https://abcd1234.ngrok-free.app/api/products'
+const BASE_URL = 'https://YOUR_NGROK_URL_HERE/api/products'
+
+export const API = axios.create({
+  baseURL: BASE_URL,
+})
